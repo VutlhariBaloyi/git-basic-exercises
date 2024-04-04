@@ -1,0 +1,72 @@
+    1  cd Documents/
+    2  cd vutlhari/
+    3  cd VutlhariNtsako-Baloyi-219-level-1-programming-katas-javascript/
+    4  git checkout -b task/1
+    5  git init
+    6  git checkout -b task/1
+    7  touch task1.js
+    8  code .
+    9  git checkout -b task/2
+   10  touch task2.js
+   11  git add .
+   12  git commit -m "added task 1"
+   13  git add .
+   14  git commit -m "added task1"
+   15  git push --all origin
+   16  cd Documents/
+   17  cd vutlhari/
+   18  mkdir challenge
+   19  cd challenge/
+   20  mkdir git-basic-exercises
+   21  cd git-basic-exercises/
+   22  ls -a
+   23  git init
+   24  ls -a
+   25  git status
+   26  touch README.md
+   27  ls -a
+   28  git status
+   29  git log
+   30  git add .
+   31  git status
+   32  git rm --cached README.md
+   33  git status
+   34  git add .
+   35  git commit -m"initial commit"
+   36  git log
+   37  q
+   38  nano README.md 
+   39  nano README.md 
+   40  cat README.md 
+   41  git status
+   42  git add .
+   43  git commit -m"second commit"
+   44  nano README.md 
+   45  git commit -m"third commit"
+   46  git log
+   47  nano README.md 
+   48  git add .
+   49  git commit -m"third commit"
+   50  git log
+   51  q
+   52  git checkout f5cb174024a06588c3ce76f0de3c3b884a5fa9d3
+   53  cat README.md 
+   54  git checkout main
+   55  git checkout master
+   56  cat README.md 
+   57  git branch
+   58  git branch milkshake-flavours
+   59  git branch
+   60  git checkout milkshake-flavours
+   61  nano milkshakes.md
+   62  cat milkshakes.md 
+   63  git status
+   64  git add .
+   65  git commit -m"added initial flavours"
+   66  git log
+   67  git checkout master
+   68  git log
+   69  git branch history
+   70  git log
+   71  git checkout history 
+   72  history > history.txt
