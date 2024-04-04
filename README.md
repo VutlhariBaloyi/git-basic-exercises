@@ -1,2 +1,1 @@
-hello world
-yes am Vutlhari
+booya
